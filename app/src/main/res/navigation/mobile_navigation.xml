@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/upload">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.navigationactivity.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/upload"
+        android:name="com.example.navigationactivity.ui.home.HomeFragment"
+        android:label="@string/menu_upload"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/download"
+        android:name="com.example.navigationactivity.ui.gallery.GalleryFragment"
+        android:label="@string/menu_download"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/chat"
+        android:name="com.example.navigationactivity.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/socialMedia"
+        android:name="com.example.navigationactivity.ui.socialmedia.SocialMediaFragment"
+        android:label="@string/social_media"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.navigationactivity.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/social_media_fragment" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.navigationactivity.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.navigationactivity.ui.send.SendFragment"
+        android:label="@string/log_ouT"
+        tools:layout="@layout/fragment_send" />
+</navigation>

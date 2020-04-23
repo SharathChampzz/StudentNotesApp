@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Students Notes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="menu_upload_notes">Upload Notes</string>
+    <string name="menu_download_notes">Download Notes</string>
+    <string name="menu_chat">Chat</string>
+    <string name="social_media">Social Media</string>
+    <string name="socialmediafragment">Social Media Fragment</string>
+    <string name="click_here">Click Here</string>
+    <string name="hai_from_social_media_activity">Hai from Social Media Activity</string>
+    <string name="hai_from_gallery">Hai from Gallery</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_upload">UPLOAD</string>
+    <string name="choose_file">Choose File</string>
+    <string name="enter_file_name">Enter File Name</string>
+    <string name="upload">Upload</string>
+    <string name="feature">feature</string>
+    <string name="college">College:</string>
+    <string name="branch">Branch</string>
+    <string name="semester">SEMESTER</string>
+    <string name="name">Name</string>
+    <string name="view">View</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t Have An Account ? Sign Up Here</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_gmail_id">Enter Your Gmail ID</string>
+    <string name="already_i_have_an_account">Already I Have An Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_gmail">Enter Your Gmail</string>
+    <string name="user_profile">User Profile</string>
+    <string name="profile">Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_ouT">LOG OUT</string>
+    <string name="show_uploads">Show Uploads</string>
+    <string name="uploader_name">Uploader Name</string>
+    <string name="insert">insert</string>
+    <string name="remove">remove</string>
+
+    <string name="url">URL</string>
+    <string name="enter_social_media_name">Enter Social Media Name</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="save">SAVE</string>
+    <string name="total_items">Total Items</string>
+    <string name="item_no">Item No</string>
+    <string name="pick_profile_pic">Pick Profile Pic</string>
+    <string name="user_name">User Name</string>
+    <string name="your_info">Your Info</string>
+    <string name="finish">Finish</string>
+    <string name="edit">EDIT</string>
+    <string name="username">Username</string>
+    <string name="user">User : </string>
+    <string name="user_information">User Information : </string>
+    <string name="students_notes_app">Students Notes App</string>
+    <string name="delete_my_previous_details">Delete My Previous Details</string>
+    <string name="insert_at">Insert at ?</string>
+    <string name="remove_at">Remove at?</string>
+    <string name="exit">Exit</string>
+    <string name="go_back_to_main_activity">Click : To Go Back to Starting Activity </string>
+    <string name="forgot_password">Forgot your password?</string>
+
+
+    <string-array name="college">
+        <item> </item>
+        <item>SJCE</item>
+        <item>NIE</item>
+        <item>RV</item>
+        <item>PES</item>
+
+    </string-array>
+
+
+    <string-array name="branch">
+        <item> </item>
+        <item>EC</item>
+        <item>CS</item>
+        <item>EEE</item>
+        <item>CV</item>
+        <item>MECH</item>
+        <item>IT</item>
+        <item>POLY</item>
+        <item>BIO</item>
+
+    </string-array>
+
+    <string-array name="sem">
+        <item> </item>
+        <item>I st</item>
+        <item>II nd</item>
+        <item>III rd</item>
+        <item>IV th</item>
+        <item>V th</item>
+        <item>VI th</item>
+        <item>VII th</item>
+        <item>VIII th</item>
+
+    </string-array>
+
+</resources>
